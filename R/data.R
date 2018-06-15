@@ -1,0 +1,20 @@
+#' @name df.flys1
+#' @rdname df.flys1
+#' 
+#' @title Stationary water levels from the FLYS 3-database
+#' 
+#' @description This dataset contains the 30 stationary 1D water levels for the
+#'   rivers \strong{Elbe} and \strong{Rhein} originally stored in the 
+#'   \href{https://www.bafg.de/DE/08_Ref/M2/03_Fliessgewmod/01_FLYS/flys_node.html}{FLYS3}-database.
+#' 
+#' @format A \code{data.frame} with 4 columns: 
+#' \describe{
+#'   \item{river}{name of the relevant water body (type \code{character}).}
+#'   \item{name}{of the FLYS 3 water level (type \code{character}). See details for more information.}
+#'   \item{station}{rivers stationing (type \code{numeric}).}
+#'   \item{w}{water level (cm above gauging station null, type \code{numeric}).} 
+#' }
+#' 
+#' @details The \code{name}ing of the water levels is \code{river}-specific.
+#' 
+"df.flys1"

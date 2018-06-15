@@ -1,0 +1,14 @@
+citHeader("To cite pdtest-destination in publications, please use:")
+
+citEntry(entry = "Article",
+  title        = "pgtest-destination",
+  author       = personList(as.person("Arnd Weber")),
+  journal      = "Journal of Self-Destruction",
+  url          = "https://github.com/aqualogy/pdtest-destination/",
+  year         = 2018,
+
+  textVersion  =
+  paste("Arnd Weber (2018): ",
+        "pdtest-destination. Journal of Self-Destruction. ",
+        "URL https://github.com/aqualogy/pdtes-destinationt/.")
+)

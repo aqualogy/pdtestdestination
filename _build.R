@@ -5,7 +5,7 @@
 # date:   15.06.2018
 #
 # purpose: 
-#   - build the repository version of pdtest
+#   - build the repository version of pdtestdestination
 #
 ##################################################
 
@@ -29,7 +29,7 @@ devtools::check(".")
 devtools::build(".")
 
 # pkgdown
-#pkgdown::clean_site(".")
+#pkgdown::clean_site(".", destination = "public/R-3.5.0")
 pkgdown::build_site(".", override = list(destination = "public/R-3.5.0"), new_process = FALSE)
 
 q("no")
